@@ -1,0 +1,222 @@
+C# CODES
+
+1. Operators 
+
+using System;				
+public class Program
+{
+	public static void Main()
+	{
+		int x = 5;
+		int y = 6;
+		Console.WriteLine(x+y);
+		int a,b;
+		Console.WriteLine("Enter value for a");
+		a = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Enter value for b");
+		b = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("addition is "+(a+b));
+		Console.ReadLine();
+		Console.WriteLine("Division is "+(a/b));
+		Console.ReadLine();
+		Console.WriteLine("Multiplication is "+(a*b));
+		Console.ReadLine();
+		Console.WriteLine("Subtraction is "+(a-b));
+		Console.ReadLine();
+	}
+}
+
+2. EVEN ODD NUMBER
+
+using System;				
+public class Program
+{
+	public static void Main()
+	{
+		int num;
+		Console.WriteLine("Enter number");
+		num = Convert.ToInt32(Console.ReadLine());
+		if(num%2==0)
+		{
+			Console.WriteLine("Number is even");
+		}
+		else
+		{
+			Console.WriteLine("Number is odd");
+		}
+		Console.ReadLine();
+	}
+}
+
+
+3. Number to string
+
+using System;				
+public class Program
+{
+	public static void Main()
+	{
+		int num;
+		Console.WriteLine("Enter number");
+		num = Convert.ToInt32(Console.ReadLine());
+		if(num == 1)
+		{
+			Console.WriteLine("One");
+		}
+		else if(num == 2)
+		{
+			Console.WriteLine("Two");
+		}
+		else if(num == 3)
+		{
+			Console.WriteLine("Three");
+		}
+		else if(num == 4)
+		{
+			Console.WriteLine("four");
+		}
+		else
+		{
+			Console.WriteLine("Five");
+		}
+		Console.ReadLine();
+	}
+}
+
+4. SWITCH CASE
+
+using System;				
+public class Program
+{
+	public static void Main()
+	{
+		int num;
+		Console.WriteLine("Enter number");
+		num = Convert.ToInt32(Console.ReadLine());
+		switch (num)
+		{
+			case 1: Console.WriteLine("ONE");
+				break;
+			case 2: Console.WriteLine("TWO");
+				break;
+			case 3: Console.WriteLine("THREE");
+				break;
+			case 4: Console.WriteLine("FOUR");
+				break;
+			case 5: Console.WriteLine("Five");
+				break;
+			default:  Console.WriteLine("ENTER NUM BETWEEN 1-5");
+				break;
+		}
+			
+		Console.ReadLine();
+	}
+}
+
+5. PATTERN
+
+
+		 for( int i=1;i<=5;i++)
+
+		 {
+			 for(int j=1;j<=i;j++)
+			 {
+				 Console.Write(" * ");
+			 }
+			 Console.WriteLine(" ");
+		 }
+
+ Console.ReadLine();
+	
+
+6.TRIANGLE PRINTING
+
+using System;				
+public class Program
+{
+	public static void Main()
+	{
+		int count=5;
+
+		 for( int i=1;i<=5;++i)
+
+		 {
+			 for(int j=1; j<count-1; j++)
+			 {
+				 Console.Write(" ");
+			
+			 }
+			 	 for(int k=0; j<=(2*i-1); k++)
+			 {
+				 Console.Write("*");
+				 
+			 }
+			 	count--;
+				 Console.Write("*"); 
+		 }
+
+ Console.ReadLine();
+	
+	}
+}
+
+7. PATTERN CODE
+
+using System;				
+public class Program
+{
+	public static void Main()
+	{
+		for (int i = 0; i < 5; i++)
+
+ {
+
+ for (int j = 0; j <i; j++)
+
+ {
+
+ Console.Write(" ");
+
+ }
+
+ for (int k = 1; k <= 5 - i; k++)
+
+ {
+
+ Console.Write("*");
+
+ }
+
+ Console.WriteLine();
+
+ }
+
+ for (int i = 1; i < 5; i++)
+
+ {
+
+ for (int j = 1; j < 5-i; j++)
+
+ {
+
+ Console.Write(" ");
+
+ }
+
+ for (int k = 1; k <= i+1; k++)
+
+ {
+
+ Console.Write("*");
+
+ }
+
+ Console.WriteLine();
+
+
+
+}
+	}
+}
+
+8.
